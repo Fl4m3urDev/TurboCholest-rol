@@ -5,4 +5,5 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+$routes->setAutoRoute(false);
+$routes->get('/Visiteur/accueil', 'Visiteur::accueil');
