@@ -1,5 +1,5 @@
 <div class="container-fluid">
-  <h1 class='mt-2 text-center'>Classement des plus gros</h1>
+  <h1 class='mt-2 text-center'><?php echo $TitreDeLaPage ?></h1>
   <hr />
   <div class="d-flex justify-content-evenly">
   <table class="table">
