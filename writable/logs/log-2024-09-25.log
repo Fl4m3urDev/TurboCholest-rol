@@ -1,0 +1,12 @@
+CRITICAL - 2024-09-25 12:19:18 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: saisie-activites]
+in APPPATH/Models/ActivityModel.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-25 12:33:12 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: saisie-activites]
+in APPPATH/Models/ActivityModel.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-25 12:35:07 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: saisie-activites]
+in APPPATH/Models/ActivityModel.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
