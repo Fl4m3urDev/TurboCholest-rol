@@ -1,18 +1,18 @@
 <h2>Saisie d'Activités</h2>
 
-<?php if(session()->getFlashdata('success')): ?>
+<?php if (session()->getFlashdata('success')): ?>
     <div class="alert alert-success"><?= session()->getFlashdata('success') ?></div>
 <?php endif; ?>
 
-<?= form_open('/sauver-activite') ?>
+<?php form_open('activite/formulaire_activite') ?>
 
 <div class="form-group">
-    <?= form_label('Nom de l\'Activité', 'nom') ?>
-    <?= form_input(['name' => 'nom', 'id' => 'nom', 'class' => 'form-control', 'required' => 'required']) ?>
+    <?php form_label('Nom de l\'Activité', 'nom') ?>
+    <?php form_input(['name' => 'nom', 'id' => 'nom', 'class' => 'form-control', 'required' => 'required']) ?>
 </div>
 <div class="form-group">
-    <?= form_label('Calories brûlées par minute', 'calories') ?>
-    <?= form_input(['name' => 'calories', 'id' => 'calories', 'type' => 'number', 'class' => 'form-control', 'required' => 'required']) ?>
+    <?php form_label('Calories brûlées par minute', 'calories') ?>
+    <?php form_input(['name' => 'calories', 'id' => 'calories', 'type' => 'number', 'class' => 'form-control', 'required' => 'required']) ?>
 </div>
-<?= form_submit(['value' => 'Ajouter Activité', 'class' => 'btn btn-primary']) ?>
-<?= form_close() ?>
+<?php form_submit(['value' => 'Ajouter Activité', 'class' => 'btn btn-primary']) ?>
+<?php form_close() ?>
