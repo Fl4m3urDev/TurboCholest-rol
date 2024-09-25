@@ -16,22 +16,35 @@ class Activite extends BaseController
 
     public function formulaire_activite()
     {
-        return view('templates/header') .
-            view('activite/formulaire_activite') .
-            view('templates/footer');
-    }
+        $data['TitreDeLaPage'] = 'Saisie d\'Activités';
 
-    public function save()
-    {
-        $modeleActivite = new ModeleActivite();
-
-        $data = [
-            'nom' => $this->request->getPost('nom'),
-            'calories_brulées_par_minute' => $this->request->getPost('calories')
+        $rules = [
+            'txtNom' => 'required',
+            'txtCalorie' => 'required',
+        ];
+        $messages = [
+            'txtNom' => [
+                'required' => "Veuillez renseigner le nom",
+            ],
+            'txtCalorie' => [
+                'required' => "Veuillez renseigner le nombre de calorie",
+            ]
         ];
 
-        $modeleActivite->save($data);
+        if (!$this->validate($rules, $messages)) {
+            if ($_POST) $data['TitreDeLaPage'] = "Corriger votre activite";
+            return view('templates/header') .
+                view('activite/formulaire_activite', $data) .
+                view('templates/footer');
+        } else {
+            $donneesAInserer = array(
+                'name' => $this->request->getPost('txtNom'),
+                'calories' => $this->request->getPost('txtCalorie')
+            );
 
-        return redirect()->to('/')->with('success', 'Activité ajoutée avec succès.');
+            $modeleActivite = new ModeleActivite();
+            $donnees['nbDeLignesAffectees'] = $modeleActivite->save($donneesAInserer);
+            return view('visiteur/voirCalculDepense', $donnees);
+        }
     }
 }

@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class ModeleActivite extends Model
 {
-    protected $table = 'activities';
+    protected $table = 'aliment';
     protected $primaryKey = 'id'; // Clé primaire
-    protected $allowedFields = ['nom', 'calories_brulées_par_minute'];
+    protected $allowedFields = ['name', 'calories'];
 }
