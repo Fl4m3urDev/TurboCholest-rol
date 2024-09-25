@@ -1,0 +1,292 @@
+CRITICAL - 2024-09-25 10:07:43 --> ErrorException: Undefined property: App\Controllers\Visiteur::$load
+[Method: GET, Route: visiteur/voirCalculDepense]
+in APPPATH\Controllers\Visiteur.php on line 29.
+ 1 APPPATH\Controllers\Visiteur.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Visiteur::$load', 'C:\\xampp\\htdocs\\TurboCholestérol\\app\\Controllers\\Visiteur.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 10:07:46 --> ErrorException: Undefined property: App\Controllers\Visiteur::$load
+[Method: GET, Route: visiteur/voirCalculDepense]
+in APPPATH\Controllers\Visiteur.php on line 29.
+ 1 APPPATH\Controllers\Visiteur.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Visiteur::$load', 'C:\\xampp\\htdocs\\TurboCholestérol\\app\\Controllers\\Visiteur.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 10:08:13 --> ErrorException: Undefined property: App\Controllers\Visiteur::$load
+[Method: GET, Route: visiteur/voirCalculDepense]
+in APPPATH\Controllers\Visiteur.php on line 29.
+ 1 APPPATH\Controllers\Visiteur.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Visiteur::$load', 'C:\\xampp\\htdocs\\TurboCholestérol\\app\\Controllers\\Visiteur.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 10:08:39 --> ErrorException: Undefined property: App\Controllers\Visiteur::$load
+[Method: GET, Route: visiteur/voirCalculDepense]
+in APPPATH\Controllers\Visiteur.php on line 29.
+ 1 APPPATH\Controllers\Visiteur.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Visiteur::$load', 'C:\\xampp\\htdocs\\TurboCholestérol\\app\\Controllers\\Visiteur.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 10:18:19 --> TypeError: CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, CodeIgniter\Validation\Validation given, called in C:\xampp\htdocs\TurboCholestérol\system\Controller.php on line 181
+[Method: GET, Route: visiteur/voirCalculDepense]
+in SYSTEMPATH\Validation\Validation.php on line 590.
+ 1 SYSTEMPATH\Controller.php(181): CodeIgniter\Validation\Validation->setRules(Object(CodeIgniter\Validation\Validation), [])
+ 2 SYSTEMPATH\Controller.php(135): CodeIgniter\Controller->setValidator(Object(CodeIgniter\Validation\Validation), [])
+ 3 APPPATH\Controllers\Visiteur.php(33): CodeIgniter\Controller->validate(Object(CodeIgniter\Validation\Validation))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 10:18:39 --> TypeError: CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, CodeIgniter\Validation\Validation given, called in C:\xampp\htdocs\TurboCholestérol\system\Controller.php on line 181
+[Method: GET, Route: visiteur/voirCalculDepense]
+in SYSTEMPATH\Validation\Validation.php on line 590.
+ 1 SYSTEMPATH\Controller.php(181): CodeIgniter\Validation\Validation->setRules(Object(CodeIgniter\Validation\Validation), [])
+ 2 SYSTEMPATH\Controller.php(135): CodeIgniter\Controller->setValidator(Object(CodeIgniter\Validation\Validation), [])
+ 3 APPPATH\Controllers\Visiteur.php(33): CodeIgniter\Controller->validate(Object(CodeIgniter\Validation\Validation))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 10:24:56 --> TypeError: CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, CodeIgniter\Validation\Validation given, called in C:\xampp\htdocs\TurboCholestérol\system\Controller.php on line 181
+[Method: GET, Route: visiteur/voirCalculDepense]
+in SYSTEMPATH\Validation\Validation.php on line 590.
+ 1 SYSTEMPATH\Controller.php(181): CodeIgniter\Validation\Validation->setRules(Object(CodeIgniter\Validation\Validation), [])
+ 2 SYSTEMPATH\Controller.php(135): CodeIgniter\Controller->setValidator(Object(CodeIgniter\Validation\Validation), [])
+ 3 APPPATH\Controllers\Visiteur.php(33): CodeIgniter\Controller->validate(Object(CodeIgniter\Validation\Validation))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 11:59:53 --> Error: Call to undefined function form_label()
+[Method: GET, Route: visiteur/voirCalculDepense]
+in APPPATH\Views\visiteur\voirCalculDepense.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('visiteur/voirCalculDepense', [], true)
+ 4 APPPATH\Controllers\Visiteur.php(24): view('visiteur/voirCalculDepense')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:00:01 --> Error: Call to undefined function form_label()
+[Method: GET, Route: Visiteur/voirCalculDepense]
+in APPPATH\Views\visiteur\voirCalculDepense.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('visiteur/voirCalculDepense', [], true)
+ 4 APPPATH\Controllers\Visiteur.php(24): view('visiteur/voirCalculDepense')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:26:25 --> ErrorException: Undefined variable $TitreDeLaPage
+[Method: GET, Route: Visiteur/voirCalculDepense]
+in APPPATH\Views\visiteur\voirCalculDepense.php on line 2.
+ 1 APPPATH\Views\visiteur\voirCalculDepense.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TitreDeLaPage', 'C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('visiteur/voirCalculDepense', [], true)
+ 5 APPPATH\Controllers\Visiteur.php(27): view('visiteur/voirCalculDepense')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:32:45 --> ErrorException: Undefined variable $TitreDeLaPage
+[Method: GET, Route: Visiteur/voirCalculDepense]
+in APPPATH\Views\visiteur\voirCalculDepense.php on line 2.
+ 1 APPPATH\Views\visiteur\voirCalculDepense.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TitreDeLaPage', 'C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('visiteur/voirCalculDepense', [], true)
+ 5 APPPATH\Controllers\Visiteur.php(27): view('visiteur/voirCalculDepense')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:33:32 --> ErrorException: Undefined variable $TitreDeLaPage
+[Method: GET, Route: Visiteur/voirCalculDepense]
+in APPPATH\Views\visiteur\voirCalculDepense.php on line 2.
+ 1 APPPATH\Views\visiteur\voirCalculDepense.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TitreDeLaPage', 'C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('visiteur/voirCalculDepense', [], true)
+ 5 APPPATH\Controllers\Visiteur.php(40): view('visiteur/voirCalculDepense')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:33:35 --> ErrorException: Undefined variable $TitreDeLaPage
+[Method: GET, Route: Visiteur/voirCalculDepense]
+in APPPATH\Views\visiteur\voirCalculDepense.php on line 2.
+ 1 APPPATH\Views\visiteur\voirCalculDepense.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TitreDeLaPage', 'C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('visiteur/voirCalculDepense', [], true)
+ 5 APPPATH\Controllers\Visiteur.php(40): view('visiteur/voirCalculDepense')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:36:31 --> ParseError: Unmatched '}'
+[Method: GET, Route: Visiteur/voirCalculDepense]
+in APPPATH\Controllers\Visiteur.php on line 35.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('Visiteur/voirCalculDepense', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('Visiteur/voirCalculDepense')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Visiteur/voirCalculDepense')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:36:32 --> ParseError: Unmatched '}'
+[Method: GET, Route: Visiteur/voirCalculDepense]
+in APPPATH\Controllers\Visiteur.php on line 35.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('Visiteur/voirCalculDepense', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('Visiteur/voirCalculDepense')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Visiteur/voirCalculDepense')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:38:05 --> ParseError: Unmatched '}'
+[Method: GET, Route: Visiteur/voirCalculDepense]
+in APPPATH\Controllers\Visiteur.php on line 35.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('Visiteur/voirCalculDepense', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('Visiteur/voirCalculDepense')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Visiteur/voirCalculDepense')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:38:06 --> ParseError: Unmatched '}'
+[Method: GET, Route: Visiteur/voirCalculDepense]
+in APPPATH\Controllers\Visiteur.php on line 35.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('Visiteur/voirCalculDepense', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('Visiteur/voirCalculDepense')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Visiteur/voirCalculDepense')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:49:02 --> ParseError: Unmatched '}'
+[Method: GET, Route: Visiteur/accueil]
+in APPPATH\Controllers\Visiteur.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\TurboCholestérol\\app\\Controllers\\Visiteur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Visiteur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Visiteur')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Visiteur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:50:48 --> ErrorException: Undefined variable $TitreDeLaPage
+[Method: GET, Route: Visiteur/voirCalculDepense]
+in APPPATH\Views\visiteur\voirCalculDepense.php on line 2.
+ 1 APPPATH\Views\visiteur\voirCalculDepense.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TitreDeLaPage', 'C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('visiteur/voirCalculDepense', [], true)
+ 5 APPPATH\Controllers\Visiteur.php(27): view('visiteur/voirCalculDepense')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:53:25 --> ErrorException: Undefined variable $TitreDeLaPage
+[Method: GET, Route: Visiteur/voirCalculDepense]
+in APPPATH\Views\visiteur\voirCalculDepense.php on line 2.
+ 1 APPPATH\Views\visiteur\voirCalculDepense.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TitreDeLaPage', 'C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('visiteur/voirCalculDepense', [], true)
+ 5 APPPATH\Controllers\Visiteur.php(27): view('visiteur/voirCalculDepense')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:53:26 --> ErrorException: Undefined variable $TitreDeLaPage
+[Method: GET, Route: Visiteur/voirCalculDepense]
+in APPPATH\Views\visiteur\voirCalculDepense.php on line 2.
+ 1 APPPATH\Views\visiteur\voirCalculDepense.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TitreDeLaPage', 'C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('visiteur/voirCalculDepense', [], true)
+ 5 APPPATH\Controllers\Visiteur.php(27): view('visiteur/voirCalculDepense')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')
+CRITICAL - 2024-09-25 12:55:30 --> ErrorException: Undefined variable $TitreDeLaPage
+[Method: GET, Route: Visiteur/voirCalculDepense]
+in APPPATH\Views\visiteur\voirCalculDepense.php on line 2.
+ 1 APPPATH\Views\visiteur\voirCalculDepense.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $TitreDeLaPage', 'C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TurboCholestérol\\app\\Views\\visiteur\\voirCalculDepense.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('visiteur/voirCalculDepense', [], true)
+ 5 APPPATH\Controllers\Visiteur.php(27): view('visiteur/voirCalculDepense')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Visiteur->voirCalculDepense()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TurboCholestérol\\public\\index.php')

@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+helper(['url', 'assets', 'form']);
 class Visiteur extends BaseController
 {
     public function accueil()
@@ -16,5 +17,17 @@ class Visiteur extends BaseController
         return view('templates/header').
         view('visiteur/classement').
         view('templates/footer');
+    }
+
+    public function voirCalculDepense()
+    {
+        $data['TitreDeLaPage'] = 'Confirmation';
+
+        return view('templates/header').
+        view('visiteur/voirCalculDepense', $data).
+        view('templates/footer');
+        if ($this->input->post('submit')) {
+            return redirect()->to('visiteur/voirCalculDepense');
+        }
     }
 }

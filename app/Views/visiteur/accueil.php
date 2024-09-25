@@ -6,6 +6,6 @@
     <button class="btn btn-primary">Insérer de la nourriture</button>
   </div>
   <div class="d-flex justify-content-center">
-    <button class="btn btn-primary">Découvre le classement</button>
+    <button class="btn btn-primary"><a class="" href="<?php echo site_url('visiteur/classement') ?>">Découvre le classement</a></button>
   </div>
 </div>
