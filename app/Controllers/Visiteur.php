@@ -10,4 +10,11 @@ class Visiteur extends BaseController
         view('visiteur/accueil').
         view('templates/footer');
     }
+
+    public function classement()
+    {
+        return view('templates/header').
+        view('visiteur/classement').
+        view('templates/footer');
+    }
 }
