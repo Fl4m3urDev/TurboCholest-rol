@@ -4,44 +4,37 @@ namespace App\Controllers;
 
 use App\Models\ActivityModel;
 
-helper('form');
-
 class ActivityController extends BaseController
-
 {
-    
-    // protected $activityModel;
+    protected $activityModel;
 
-    // public function __construct()
-    // {
-        
-        
-
-        
-    //     $this->activityModel = new ActivityModel();
-    // }
-
-  
-    public function index()
+    public function __construct()
     {
-        return view('templates/header') . 
-               view('activity_form') . 
-               view('templates/footer');
+        helper('form');
+
+        $this->activityModel = new ActivityModel();
     }
 
-    
+
+    public function index()
+    {
+        return view('templates/header') .
+            view('activity_form') .
+            view('templates/footer');
+    }
+
+
     public function save()
     {
-        
+
         $data = [
             'nom' => $this->request->getPost('nom'),
             'calories_brulées_par_minute' => $this->request->getPost('calories')
         ];
 
-      
         $this->activityModel->save($data);
 
-       
+
         return redirect()->to('/')->with('success', 'Activité ajoutée avec succès.');
     }
 }

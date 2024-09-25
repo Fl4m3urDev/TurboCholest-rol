@@ -1,6 +1,6 @@
-<h2>Saisie d'Activités</h2>
+<h2>Entre ton activité de la journée, et découvre ce que tu peux manger !</h2>
 
-<?php if(sessio()->getFlashdata('success')): ?>
+<?php if(session()->getFlashdata('success')): ?>
     <div class="alert alert-success"><?= session()->getFlashdata('success') ?></div>
 <?php endif; ?>
 
