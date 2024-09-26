@@ -43,7 +43,7 @@ class Database extends Config
         'compress' => false,
         'strictOn' => false,
         'failover' => [],
-        'port'     => 8889, // Port par défaut de MySQL sous MAMP
+        'port'     => 8889, 
     ];
 
     //    /**
