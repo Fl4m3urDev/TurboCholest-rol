@@ -24,27 +24,27 @@ class Database extends Config
      *
      * @var array<string, mixed>
      */
-    public array $default = [
-        'DSN'          => 'mysql:host=localhost;port=8889;dbname=turbocholestrol;charset=utf8mb4',
-        'hostname' => '',
-    'username' => 'root',
-    'password' => 'root',
-    'database' => '',
-    'DBDriver' => 'pdo',
-    'DBPrefix' => '',
-    'pConnect' => false,
-    'DBDebug'  => (ENVIRONMENT !== 'production'),
-    'cacheOn'  => false,
-    'cacheDir' => '',
-    'charset'  => 'utf8mb4',
-    'DBCollat' => 'utf8mb4_general_ci',
-    'swapPre'  => '',
-    'encrypt'  => false,
-    'compress' => false,
-    'strictOn' => false,
-    'failover' => [],
-    'port'     => 8889,
-];
+    public $default = [
+        'DSN'      => '',
+        'hostname' => '127.0.0.1',
+        'username' => 'root',
+        'password' => 'root', 
+        'database' => 'turbocholestrol',
+        'DBDriver' => 'MySQLi',
+        'DBPrefix' => '',
+        'pConnect' => false,
+        'DBDebug'  => (ENVIRONMENT !== 'production'),
+        'cacheOn'  => false,
+        'cacheDir' => '',
+        'charset'  => 'utf8',
+        'DBCollat' => 'utf8_general_ci',
+        'swapPre'  => '',
+        'encrypt'  => false,
+        'compress' => false,
+        'strictOn' => false,
+        'failover' => [],
+        'port'     => 8889, // Port par défaut de MySQL sous MAMP
+    ];
 
     //    /**
     //     * Sample database connection for SQLite3.

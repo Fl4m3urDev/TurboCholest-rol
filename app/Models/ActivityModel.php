@@ -8,6 +8,6 @@ class ActivityModel extends Model
 
 {
     protected $table = 'activities'; 
-    protected $primaryKey = 'id'; // Clé primaire
+    protected $primaryKey = 'id'; 
     protected $allowedFields = ['nom', 'calories_brulées_par_minute']; 
 }
