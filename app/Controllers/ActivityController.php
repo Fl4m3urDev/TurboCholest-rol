@@ -12,7 +12,18 @@ class ActivityController extends Controller
 {
     public function enterActivity()
     {
-        return view('enter_activity');
+        
+        $activityModel = new ActivityModel();
+        $activities = $activityModel->findAll();
+
+        $data = [
+            'activities' => $activities,
+        ];
+        
+        return view('templates/header')
+        .view('enter_activity', $data)
+        .view('templates/footer');
+        // return view('enter_activity');
     }
 
     public function calculateFood()

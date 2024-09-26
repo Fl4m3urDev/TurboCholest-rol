@@ -43,6 +43,13 @@ class RankingController extends Controller
             'athletes' => $athletes,
         ];
 
-        return view('ranking', $data);
+        // return view('ranking', $data);
+        
+        return view('templates/header')
+        .view('ranking', $data)
+        .view('templates/footer');
     }
 }
+
+
+

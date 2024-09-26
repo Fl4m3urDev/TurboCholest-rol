@@ -1,4 +1,4 @@
-<h2>Entre ton activité de la journée, et découvre ce que tu peux manger !</h2>
+<h2 class="mt-4">Entre ton activité de la journée, et découvre ce que tu peux manger !</h2>
 
 <?php if(session()->getFlashdata('success')): ?>
     <div class="alert alert-success"><?= session()->getFlashdata('success') ?></div>

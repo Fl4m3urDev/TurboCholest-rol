@@ -12,7 +12,17 @@ class FoodController extends Controller
 {
     public function enterFood()
     {
-        return view('enter_food');
+        $foodModel = new FoodModel();
+        $foods = $foodModel->findAll();
+
+        $data = [
+            'foods' => $foods,
+        ];
+
+        return view('templates/header')
+        .view('enter_food', $data)
+        .view('templates/footer');
+        // return view('enter_food');
     }
 
     public function calculateActivity()
@@ -116,6 +126,10 @@ class FoodController extends Controller
             'pourcentageTDEE'  => round($pourcentageTDEE, 2),
         ];
 
-        return view('result_food', $data);
+        return view('templates/header')
+        .view('result_food', $data)
+        .view('templates/footer');
+        // return view('result_food', $data);
+        
     }
 }

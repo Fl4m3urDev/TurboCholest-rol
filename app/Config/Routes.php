@@ -6,7 +6,7 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->setAutoRoute(true);
-$routes->get('/Visiteur/accueil', 'Visiteur::accueil');
+$routes->get('choose-action', 'HomeController::chooseAction');
 
 $routes->get('/', 'HomeController::index');
 $routes->get('/entrer-donnees-personnelles', 'UserController::enterPersonalData');

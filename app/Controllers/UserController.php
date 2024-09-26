@@ -9,7 +9,10 @@ class UserController extends Controller
 {
     public function enterPersonalData()
     {
-        return view('enter_personal_data');
+        return view('templates/header')
+        .view('enter_personal_data')
+        .view('templates/footer');
+        // return view('enter_personal_data');
     }
 
     public function savePersonalData()

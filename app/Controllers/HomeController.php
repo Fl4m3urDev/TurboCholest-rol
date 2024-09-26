@@ -13,6 +13,9 @@ class HomeController extends Controller
 
     public function chooseAction()
     {
-        return view('choose_action');
+        return view('templates/header')
+        .view('choose_action')
+        .view('templates/footer');
     }
 }
+
