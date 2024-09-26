@@ -15,6 +15,7 @@ class UserModel extends Model
         'sexe',
         'niveau_activite',
         'age',
+        'bmr',
     ];
 
     protected $useTimestamps = true;
