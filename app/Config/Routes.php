@@ -8,5 +8,12 @@ use CodeIgniter\Router\RouteCollection;
 $routes->setAutoRoute(true);
 $routes->get('/Visiteur/accueil', 'Visiteur::accueil');
 
-$routes->get('/Activite/saisie-activites', 'ActivityController::index'); 
-$routes->post('/sauver-activite', 'ActivityController::save');  
+$routes->get('/', 'HomeController::index');
+$routes->get('/entrer-donnees-personnelles', 'UserController::enterPersonalData');
+$routes->post('/save-personal-data', 'UserController::savePersonalData');
+$routes->get('/choose-action', 'HomeController::chooseAction');
+$routes->get('/enter-food', 'FoodController::enterFood');
+$routes->post('/calculate-activity', 'FoodController::calculateActivity');
+$routes->get('/enter-activity', 'ActivityController::enterActivity');
+$routes->post('/calculate-food', 'ActivityController::calculateFood');
+$routes->get('/ranking', 'RankingController::index');
